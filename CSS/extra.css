@@ -1,0 +1,152 @@
+/* CSS Document */
+div.cabecera{
+	position:absolute;
+	top:0.10%;
+	left:0.10%;
+	width: 99.80%;
+	height: 15%;
+	background-image: url("../img/Fondpag4.jpg");
+}
+.cabecera p{
+	text-decoration-color: #F44D50
+}
+
+
+
+div.menu{
+	position:absolute;
+	top:15.20%;
+	left:0.10%;
+	width: 99.80%;
+	height: 2%;
+	border: white;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+.menu ul{
+		align-content: center;
+		color: chartreuse;
+		padding:0px 1px 30px 1px;
+		margin: 0;
+		list-style: none;
+		height: 2%;
+		border: 1px solid#ddd;
+		border-bottom: 1px solid #ddd;
+		background-image:url("../img/fontclaro.avif");
+}
+.menu ul li{
+			float: center;
+		}
+		.menu li a{
+			display: block;
+			float: left;
+			height: 30px;
+			line-height: 30px;
+			color: #64FBB8;
+			text-decoration: none;
+			font-size:17px;
+			font-family:"Comic Sans MS", "sans-serif", "Freestyle Script", "Dubai", "Century Gothic";
+			font-weight: bold;
+			text-align: center;
+			padding: 0px 0px 0px 10px;
+		}
+		.menu ul li a b{
+			float: left;
+			padding: 0px 15px 0px 7px
+		}
+		.menu ul li a:hover{
+			color:#aaaaaa;
+			background: #64FBB8;
+		}
+
+
+
+div.izq{
+	position: absolute;
+	top:19.90%;
+	left:0.20%;
+	width: 19%;
+	height: 69.20%;
+	
+	background-image: url("../img/nesi.jpg");
+	border:white;
+}
+.izq center {
+	color:#AF0306;
+	font-family:"Comic Sans MS", "sans-serif", "Freestyle Script", "Dubai", "Century Gothic";
+}
+.izq a {
+	color:#87C23C;
+	left: 10px;
+	text-decoration: none;
+	font-family:"Comic Sans MS", "sans-serif", "Freestyle Script", "Dubai", "Century Gothic";
+}
+
+div.cuerpo{
+	position: absolute;
+	top:19.90%;
+	background: #F193D3;
+	left:19.30%;
+	width: 61.10%;
+	height: 69.10%;
+}
+
+
+
+
+div.der{
+	position: absolute;
+	top:19.90%;
+	left:80.6%;
+	width: 19.30%;
+	height: 69.20%;
+	
+	background-image: url("../img/nesi.jpg");
+	border:white;
+}
+.der a {
+	color:#AF0306;
+	left: 10px;
+	text-decoration: none;
+	font-family:"Comic Sans MS", "sans-serif", "Freestyle Script", "Dubai", "Century Gothic";
+}
+.der center {
+	font-family:"Comic Sans MS", "sans-serif", "Freestyle Script", "Dubai", "Century Gothic";
+	color:#AF0306;
+}
+
+
+div.pie{
+	position: absolute;
+	top:89.30%;
+	left:0.10%;
+	width: 99.80%;
+	height:10.60%;
+	background-image: url("../img/tablafon.jpg");
+}
+.pie table{
+	background-image: url("../img/imagtt.avif");
+	color: aquamarine;
+}
+
+
+
+
+a:link{
+	height: 0px;
+	width: inherit;
+	color: #ffffff;
+}
+a:visited{
+	height: 0px;
+	width: inherit;
+	color: #ffffff;
+}
+a:hover{
+	height: 0px;
+	width: inherit;
+	font-family: Genova, Arial,Helvetica,sans-serif;
+	color: lime;
+	font-weight: bold;
+}
